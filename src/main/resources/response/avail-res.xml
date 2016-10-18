@@ -1,0 +1,238 @@
+<AirShoppingRS EchoToken="8fdb1c621a7a4454aa3360556e7784d5" TimeStamp="2015-12-10T12:39:00Z" Version="15.2" TransactionIdentifier="a" xmlns="http://www.iata.org/IATA/EDIST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Document>
+    <Name>KRONOS NDC GATEWAY</Name>
+    <ReferenceVersion>1.0</ReferenceVersion>
+  </Document>
+  <Success />
+  <AirShoppingProcessing />
+  <ShoppingResponseIDs>
+    <Owner>AI</Owner>
+    <ResponseID>RE211db390f52c453b982d0889f7e71551</ResponseID>
+  </ShoppingResponseIDs>
+  <OffersGroup>
+    <AirlineOffers>
+      <TotalOfferQuantity>2</TotalOfferQuantity>
+      <Owner>AI</Owner>
+      <AirlineOffer>
+        <OfferID Owner="AI">1</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2016-10-18T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="INR">2300</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="INR">2000</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="INR">300</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#110013557#210013557">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="INR">2300</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="INR">2000</BaseAmount>
+                <Taxes>
+                  <Total Code="INR">300</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL1</FlightReferences>
+              <FlightSegmentReference ref="SEG1">
+                <Cabin>
+                  <CabinDesignator>F</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer>
+	<AirlineOffer>
+        <OfferID Owner="AI">2</OfferID>
+        <TimeLimits>
+          <OfferExpiration Timestamp="2016-10-18T23:59:00" />
+        </TimeLimits>
+        <TotalPrice>
+          <DetailCurrencyPrice>
+            <Total Code="INR">2800</Total>
+            <Details>
+              <Detail>
+                <SubTotal Code="INR">2500</SubTotal>
+                <Application>Base Fare</Application>
+              </Detail>
+            </Details>
+            <Taxes>
+              <Total Code="INR">300</Total>
+            </Taxes>
+          </DetailCurrencyPrice>
+        </TotalPrice>
+        <PricedOffer>
+          <OfferPrice OfferItemID="1#M#110013557#210013557">
+            <RequestedDate>
+              <PriceDetail>
+                <TotalAmount>
+                  <SimpleCurrencyPrice Code="INR">2800</SimpleCurrencyPrice>
+                </TotalAmount>
+                <BaseAmount Code="INR">2500</BaseAmount>
+                <Taxes>
+                  <Total Code="INR">300</Total>
+                </Taxes>
+              </PriceDetail>
+              <Associations>
+                <AssociatedTraveler>
+                  <TravelerReferences>SH1</TravelerReferences>
+                </AssociatedTraveler>
+              </Associations>
+            </RequestedDate>
+          </OfferPrice>
+          <Associations>
+            <ApplicableFlight>
+              <OriginDestinationReferences>OD1</OriginDestinationReferences>
+              <FlightReferences>FL2</FlightReferences>
+              <FlightSegmentReference ref="SEG2">
+                <Cabin>
+                  <CabinDesignator>F</CabinDesignator>
+                </Cabin>
+              </FlightSegmentReference>
+            </ApplicableFlight>
+          </Associations>
+        </PricedOffer>
+      </AirlineOffer> 
+    </AirlineOffers>
+  </OffersGroup>
+  <DataLists>
+    <AnonymousTravelerList>
+      <AnonymousTraveler ObjectKey="SH1">
+        <PTC Quantity="1">ADT</PTC>
+      </AnonymousTraveler>
+    </AnonymousTravelerList>
+    <FlightSegmentList>
+      <FlightSegment SegmentKey="SEG1">
+        <Departure>
+          <AirportCode>DEL</AirportCode>
+          <Date>2016-10-19</Date>
+          <Time>09:25</Time>
+          <AirportName>Indira Gandhi International Airport</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>BLR</AirportCode>
+          <Date>2016-10-19</Date>
+          <Time>12:10</Time>
+          <AirportName>Kempegowda International Airport</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>AI</AirlineID>
+          <Name>Air India</Name>
+          <FlightNumber>1278</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>AI</AirlineID>
+          <Name>Air India</Name>
+          <FlightNumber>1278</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>321</AircraftCode>
+          <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT2H45M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      <FlightSegment SegmentKey="SEG2">
+        <Departure>
+          <AirportCode>DEL</AirportCode>
+          <Date>2016-10-19</Date>
+          <Time>18:10</Time>
+          <AirportName>Indira Gandhi International Airport</AirportName>
+        </Departure>
+        <Arrival>
+          <AirportCode>BLR</AirportCode>
+          <Date>2016-10-19</Date>
+          <Time>20:30</Time>
+          <AirportName>Dubai International</AirportName>
+        </Arrival>
+        <MarketingCarrier>
+          <AirlineID>AI</AirlineID>
+          <Name>Air India</Name>
+          <FlightNumber>1345</FlightNumber>
+        </MarketingCarrier>
+        <OperatingCarrier>
+          <AirlineID>AI</AirlineID>
+          <Name>Air India</Name>
+          <FlightNumber>1345</FlightNumber>
+        </OperatingCarrier>
+        <Equipment>
+          <AircraftCode>321</AircraftCode>
+          <Name>321 - AIRBUS INDUSTRIE A321 JET</Name>
+        </Equipment>
+        <FlightDetail>
+          <FlightDuration>
+            <Value>PT2H20M</Value>
+          </FlightDuration>
+        </FlightDetail>
+      </FlightSegment>
+      </FlightSegmentList>
+    <FlightList>
+      <Flight FlightKey="FL1">
+        <Journey>
+          <Time>PT2H45M</Time>
+        </Journey>
+        <SegmentReferences>SEG1</SegmentReferences>
+      </Flight>
+      <Flight FlightKey="FL2">
+        <Journey>
+          <Time>PT2H20M</Time>
+        </Journey>
+        <SegmentReferences>SEG2</SegmentReferences>
+      </Flight>
+    </FlightList>
+    <OriginDestinationList>
+      <OriginDestination OriginDestinationKey="OD1">
+        <DepartureCode>DEL</DepartureCode>
+        <ArrivalCode>BLR</ArrivalCode>
+        <FlightReferences>FL1 FL2</FlightReferences>
+      </OriginDestination>
+    </OriginDestinationList>
+    </DataLists>
+  <Metadata>
+    <Other>
+      <OtherMetadata>
+        <CurrencyMetadatas>
+          <CurrencyMetadata MetadataKey="INR">
+            <Decimals>2</Decimals>
+          </CurrencyMetadata>
+        </CurrencyMetadatas>
+      </OtherMetadata>
+      <OtherMetadata>
+        <DescriptionMetadatas>
+          <DescriptionMetadata MetadataKey="ID1">
+            <AugmentationPoint>
+              <AugPoint>
+                <a:Logo xmlns:a="http://www.iata.org">http://athena.jrtechnologies.com/ServiceImage/Athena-50x90.png</a:Logo>
+              </AugPoint>
+            </AugmentationPoint>
+          </DescriptionMetadata>
+        </DescriptionMetadatas>
+      </OtherMetadata>
+    </Other>
+  </Metadata>
+</AirShoppingRS>
